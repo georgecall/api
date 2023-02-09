@@ -1,14 +1,12 @@
 package database
 
 import (
-	"fmt"
-	"log"
 	"time"
 
 	"github.com/georgecall/api/database/migrations"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-  "github.com/theGOURL/warning"
+        "github.com/theGOURL/warning"
 )
 
 var db *gorm.DB
